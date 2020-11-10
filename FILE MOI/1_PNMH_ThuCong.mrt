@@ -1,0 +1,1777 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <CTVT Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>CTVT</Alias>
+        <Key>a2d4900753fe48ba93a17314100081c7</Key>
+        <Name>CTVT</Name>
+        <PathData>resource://PNMH_DataSource</PathData>
+      </CTVT>
+    </Databases>
+    <DataSources isList="true" count="2">
+      <CTVT Ref="3" type="DataTableSource" isKey="true">
+        <Alias>CTVT</Alias>
+        <Columns isList="true" count="58">
+          <value>ORIGINAL,Desc_EN,Desc_EN,Desc_EN,System.String,_x0032_9bff30e53d0466aa28bd178fe19c496</value>
+          <value>ORIGINAL,Dia_Chi,Dia_Chi,Dia_Chi,System.String,_x0038_647d34270a24ae0bc570ed5a0b99407</value>
+          <value>ORIGINAL,Dien_Giai,Dien_Giai,Dien_Giai,System.String,_x0033_5836cc10ba24aed81398b8bdb019191</value>
+          <value>ORIGINAL,Gia_Thue,Gia_Thue,Gia_Thue,System.String,_x0032_2e728d3533c4f408bc1b11931e17103</value>
+          <value>ORIGINAL,Han_Tt,Han_Tt,Han_Tt,System.Decimal,d1e6c2b4f57b4b5681bdcd545ba3e178</value>
+          <value>ORIGINAL,id,id,id,System.String,_x0036_d14f93c98e0492b92889397db2f278f</value>
+          <value>ORIGINAL,Locked,Locked,Locked,System.Boolean,_x0031_011c35414564bb598308a955be0fc24</value>
+          <value>ORIGINAL,Ma_Bp,Ma_Bp,Ma_Bp,System.String,_x0030_a4f78bfc6db4ca5a2502247b44fed71</value>
+          <value>ORIGINAL,Ma_Ct,Ma_Ct,Ma_Ct,System.String,a30269c8d6b243848e72b31536483f32</value>
+          <value>ORIGINAL,Ma_Dt,Ma_Dt,Ma_Dt,System.String,_x0036_5323dc8c6fb406ebde88082e276f3b4</value>
+          <value>ORIGINAL,Ma_Hd,Ma_Hd,Ma_Hd,System.String,_x0030_9dbaf590ca84eb9b34ed818d6a3a0d8</value>
+          <value>ORIGINAL,Ma_Kho,Ma_Kho,Ma_Kho,System.String,_x0032_6811ae5ac86401f89480a67c38b810c</value>
+          <value>ORIGINAL,Ma_Km,Ma_Km,Ma_Km,System.String,ccd907d732134c9cb652a46b13c6e577</value>
+          <value>ORIGINAL,Ma_Loai1,Ma_Loai1,Ma_Loai1,System.String,_x0032_f80d3b328b84e9397a66d4464b8284a</value>
+          <value>ORIGINAL,Ma_Loai2,Ma_Loai2,Ma_Loai2,System.String,b2234e174ec343aaa431626c13e53633</value>
+          <value>ORIGINAL,Ma_Loai3,Ma_Loai3,Ma_Loai3,System.String,_x0036_8015d1eea7d45228613891fde4e82e7</value>
+          <value>ORIGINAL,Ma_Nx,Ma_Nx,Ma_Nx,System.String,_x0031_ccf78f675224af3b65dca2000e1c9f9</value>
+          <value>ORIGINAL,Ma_Tte,Ma_Tte,Ma_Tte,System.String,b1cdeca4fa2e40f4b5618b5275a2424b</value>
+          <value>ORIGINAL,Ngay_Ct,Ngay_Ct,Ngay_Ct,System.Decimal,_x0035_7c2a4f172e24dafb9460e39e9794e23</value>
+          <value>ORIGINAL,Ngay_Ct0,Ngay_Ct0,Ngay_Ct0,System.Decimal,ce331b26c5734fc4b34b5d0d142c0fda</value>
+          <value>ORIGINAL,Ngay_Ps,Ngay_Ps,Ngay_Ps,System.Decimal,_x0035_4aa9abd46604e63a695dcb549b02da4</value>
+          <value>ORIGINAL,Nh_Ct,Nh_Ct,Nh_Ct,System.String,a514df757750424abc3aec1ca63a79c4</value>
+          <value>ORIGINAL,Ong_Ba,Ong_Ba,Ong_Ba,System.String,_x0034_b83fa1b313f434d8326505c0ce7d7cc</value>
+          <value>ORIGINAL,Posted,Posted,Posted,System.Decimal,ccf54eb7cbc84bc789c69b75807d0fba</value>
+          <value>ORIGINAL,PostedGL,PostedGL,PostedGL,System.Boolean,efe4253177e54e968c54dce25e5f53f0</value>
+          <value>ORIGINAL,So_Ct,So_Ct,So_Ct,System.String,_x0033_72c472a364d4578b5a356631f65a56e</value>
+          <value>ORIGINAL,So_Ct0,So_Ct0,So_Ct0,System.String,_x0038_54d28ac95d841c6b03bb63613e0f68d</value>
+          <value>ORIGINAL,So_Seri0,So_Seri0,So_Seri0,System.String,b36f86ef7f7e47eab39f2cf036f5b3d5</value>
+          <value>ORIGINAL,Stt,Stt,Stt,System.String,_x0037_f4be8ff37f743ef86a1687c067e7880</value>
+          <value>ORIGINAL,Ten_Bp,Ten_Bp,Ten_Bp,System.String,_x0039_0750457af15416bb399c705809b721d</value>
+          <value>ORIGINAL,Ten_Dt,Ten_Dt,Ten_Dt,System.String,_x0037_aaadc959a8546a88cd7bb28bacf3968</value>
+          <value>ORIGINAL,Ten_Hd,Ten_Hd,Ten_Hd,System.String,_x0038_abc46b388324f509907e0e7358163d9</value>
+          <value>ORIGINAL,Ten_Kho,Ten_Kho,Ten_Kho,System.String,b897d29677a348389d4a77ec4435e14e</value>
+          <value>ORIGINAL,Ten_Km,Ten_Km,Ten_Km,System.String,b6aaad83734b44d0a4f6f724a875c10f</value>
+          <value>ORIGINAL,Ten_Nx,Ten_Nx,Ten_Nx,System.String,b25790027a7e45298ef4abf482e5b404</value>
+          <value>ORIGINAL,Thue_GTGT,Thue_GTGT,Thue_GTGT,System.Decimal,_x0034_b7d5e8833674803a9999c1875156c25</value>
+          <value>ORIGINAL,Tien_Cash,Tien_Cash,Tien_Cash,System.Decimal,_x0031_a56410cbc2244b6ae26460f3be6a4e9</value>
+          <value>ORIGINAL,TTie_VAT1,TTie_VAT1,TTie_VAT1,System.Decimal,_x0039_33938de2cf64596aee0d70963b58600</value>
+          <value>ORIGINAL,TTien,TTien,TTien,System.Decimal,_x0037_2f9532295f74cc3bbeacc2886c041d7</value>
+          <value>ORIGINAL,TTien_413,TTien_413,TTien_413,System.Decimal,_x0039_27e01b1f5b24d77b2450db970439f70</value>
+          <value>ORIGINAL,TTien_Nt,TTien_Nt,TTien_Nt,System.Decimal,_x0032_b03aa194ee545e5ba82a0426c1f580a</value>
+          <value>ORIGINAL,TTien_Nt0,TTien_Nt0,TTien_Nt0,System.Decimal,_x0039_1a887bd0dd644ada70d98260c65293d</value>
+          <value>ORIGINAL,TTien_Nt3,TTien_Nt3,TTien_Nt3,System.Decimal,_x0034_56f6d2b5c934cbd9c54d4520f23cce1</value>
+          <value>ORIGINAL,TTien_Nt4,TTien_Nt4,TTien_Nt4,System.Decimal,ff97c35f21494d5395d98051023601d9</value>
+          <value>ORIGINAL,TTien_Nt5,TTien_Nt5,TTien_Nt5,System.Decimal,_x0037_c2c21d97197481bbe25e7680c0de2ef</value>
+          <value>ORIGINAL,TTien_Nt6,TTien_Nt6,TTien_Nt6,System.Decimal,_x0039_60156de5f754cbcabc534cef94604c8</value>
+          <value>ORIGINAL,TTien_Nt8,TTien_Nt8,TTien_Nt8,System.Decimal,c4b3a69702b24c83b929da71cfb4b19a</value>
+          <value>ORIGINAL,TTien_VAT0,TTien_VAT0,TTien_VAT0,System.Decimal,f7365d6f471d430e91441d2d2f1217bd</value>
+          <value>ORIGINAL,TTien0,TTien0,TTien0,System.Decimal,b899a4499fe249f1820ca591b41a1e36</value>
+          <value>ORIGINAL,TTien3,TTien3,TTien3,System.Decimal,_x0035_f0b27abf6ea4010a3d920f172464c01</value>
+          <value>ORIGINAL,TTien4,TTien4,TTien4,System.Decimal,_x0037_5d4435c4c0c4f0eb3306be18e977d93</value>
+          <value>ORIGINAL,TTien5,TTien5,TTien5,System.Decimal,_x0036_dd68c1d9c064a96b6e3d31c7a110a13</value>
+          <value>ORIGINAL,TTien6,TTien6,TTien6,System.Decimal,c6e82527a55d472186c8da10d99fbd75</value>
+          <value>ORIGINAL,TTien8,TTien8,TTien8,System.Decimal,_x0036_01d3f15d4264a9e87d9911d513e8be6</value>
+          <value>ORIGINAL,Ty_Gia,Ty_Gia,Ty_Gia,System.Decimal,_x0031_a4d99ef0a2f490faf126560c424002d</value>
+          <value>ORIGINAL,Ty_Gia_Ht,Ty_Gia_Ht,Ty_Gia_Ht,System.Decimal,bbac1b4f9f0c415db140010fb01fbe4d</value>
+          <value>ORIGINAL,UserName,UserName,UserName,System.String,_x0034_8c62c25170e446ebb99ff4d82358083</value>
+          <value>ORIGINAL,VAT_Ck,VAT_Ck,VAT_Ck,System.String,d9c0013abc764fe48981e2c653fcdc44</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>e98d5e390c9740ea8fa578ed2d3ecd53</Key>
+        <Name>CTVT</Name>
+        <NameInSource>CTVT.CTVT</NameInSource>
+      </CTVT>
+      <CTVT0 Ref="4" type="DataTableSource" isKey="true">
+        <Alias>CTVT0</Alias>
+        <Columns isList="true" count="55">
+          <value>Do_Am_PT,System.Decimal</value>
+          <value>Do_Con_PT,System.Decimal</value>
+          <value>Dvt,System.String</value>
+          <value>Gia,System.Decimal</value>
+          <value>Gia_Nt,System.Decimal</value>
+          <value>Gia_Nt9,System.Decimal</value>
+          <value>Gia9,System.Decimal</value>
+          <value>H_Luong,System.Decimal</value>
+          <value>Han_Dung,System.Decimal</value>
+          <value>He_So9,System.Decimal</value>
+          <value>Hoa_Hong,System.Decimal</value>
+          <value>id,System.String</value>
+          <value>Lo_Hang,System.String</value>
+          <value>Ma_Bp,System.String</value>
+          <value>Ma_Hd,System.String</value>
+          <value>Ma_Kho,System.String</value>
+          <value>Ma_Km,System.String</value>
+          <value>Ma_Sp,System.String</value>
+          <value>Ma_Vt,System.String</value>
+          <value>So_Luong,System.Decimal</value>
+          <value>So_Luong9,System.Decimal</value>
+          <value>Stt_Nv,System.Decimal</value>
+          <value>Stt0,System.String</value>
+          <value>Stt0_D,System.String</value>
+          <value>Ten_Bp,System.String</value>
+          <value>Ten_Hd,System.String</value>
+          <value>Ten_Kho,System.String</value>
+          <value>Ten_Km,System.String</value>
+          <value>Ten_Sp,System.String</value>
+          <value>Ten_Vt,System.String</value>
+          <value>Thue_GTGT,System.Decimal</value>
+          <value>Thue_TTDB,System.Decimal</value>
+          <value>Tien,System.Decimal</value>
+          <value>Tien_413,System.Decimal</value>
+          <value>Tien_Nt,System.Decimal</value>
+          <value>Tien_Nt3,System.Decimal</value>
+          <value>Tien_Nt4,System.Decimal</value>
+          <value>Tien_Nt5,System.Decimal</value>
+          <value>Tien_Nt6,System.Decimal</value>
+          <value>Tien_Nt8,System.Decimal</value>
+          <value>Tien_Nt9,System.Decimal</value>
+          <value>Tien3,System.Decimal</value>
+          <value>Tien4,System.Decimal</value>
+          <value>Tien5,System.Decimal</value>
+          <value>Tien6,System.Decimal</value>
+          <value>Tien8,System.Decimal</value>
+          <value>Tien9,System.Decimal</value>
+          <value>Tk_Co,System.String</value>
+          <value>Tk_Co3,System.String</value>
+          <value>Tk_Co5,System.String</value>
+          <value>Tk_Co8,System.String</value>
+          <value>Tk_No,System.String</value>
+          <value>Tk_No3,System.String</value>
+          <value>Tk_No5,System.String</value>
+          <value>Tk_No8,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3db84ca80f28404abf1da99d08d497e6</Key>
+        <Name>CTVT0</Name>
+        <NameInSource>CTVT.CTVT0</NameInSource>
+      </CTVT0>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <Name Ref="5" type="DataRelation" isKey="true">
+        <Alias>Name</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>Stt0</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Name</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>Stt</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Name>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=PNMH_DataSource, Alias=PNMH_DataSource, Key=_x0036_c62fc59658a4f0cb2152e038b5a7cde, Type=Json, Content=_x0037_VwIwTGz_x002F_yUAHQcj_x002B_Fu79gDNewADjwW9Zo06I5uFHCk8vOm4xHsk9KpFjRUno19ssabpws2qsMhqxUbAaEIrYq5dxtjQ4pYrnr06ugeJBpuE9ruGLf4fNJsCiMYyrm8_x002B_VmqStzemcfsBL0AMd2HoBax54hIiF1r2ad6SrGK9zL_x002F_tc7rsF_x002B_8jH7bdSGx8Rdk1fKNpN_x002F_kTBzO1oJkevIEJDf_x002F_NtX94U5TN0rYhmgHTygwfRSU8G_x002F__x002F_knqmIPI8EqV5BVvDtBYKRqHGej_x002B_bfJivxoyE68iEnrZcj_x002B_FmJI_x002F_Git9QIzY71KuU5kQUJIRldjnWHqXo_x002F_N_x002B_jTvVW6tBX1iEwbT3vVRFT83A444E4YaYBZYl0hgsr8T4rUcxKauWyFUTFBhp3fIX7ZMLi9vM5sG6OPoz01bJZotmrjFRxS3Y3GGfI9t_x002F_JSd8hi43YmrJ6cr9P424XUDqFW31DMRQcXJ7dXBGBa9gVYp0S1enUWGmyw_x002B_mcVTyatXShJT0xMRQ_x002F_tF1O_x002F_ykjwvaId4IFoxYBtlvThWlFFDTeCoOTvBRwlRjsDBlil3Vi2tklTTYWhpZOyDTB7Vn52n_x002B_jJ9ej6zHVjFaDd4Dh1c44OWqwoD7AdgYqA_x002B_FWWT7BjT7ihmAU_x002F_3pbf2CKw_x002B_T5BUbqiRvc0a4FYxv_x002F_uZt99nhU7upEPCthv8T4Ti5geo8d3k4GTyCrtqGxnyT0ofLZay46LLapqG1LyDWJFE_x002B_IQS1iCCx2tYmAxhfsaY5bH8mqC2WZE61zzaO7zHT4_x002B_xdaqmyYI5KFxqZWv6ZSw4e0Rys0lFskxSg5eNECiSLM1sdxaKRdBnWoCzmDhERD00rfhfsog3hsYW_x002B_IH1Z8h6JY42fnz1HPo14Du_x002F_aZiqQ7lRgfAW4XZ9288J6sx9YF82_x002F_zvMxbycRo0Wm2FrGmGbDUdWDuDrpm1qHUAlPRMHd9r_x002F_oI_x002B_66CJ_x002B_ALZsgPqF_x002B_YzQvkPbRovcqsKfejVWPJwPm5emVa7VrnoDuq7vVmCPSsdfo42DLpc281y9xOQaKIuruIveysmexaDt_x002B_xxGwBpRuhp1vmJthz7bRNb5xJ1b9NrHlY7oV2UH1HwEDt3r4fMl7HvDw3M5endtNn94fdu4LnOxijVtuMiZfv8Z_x002B_OFDGnrNi7XYyFK_x002F_8j571zDeSq9G8OE5VZLCxnaCc8T1ZVWv14ODvwNGhSE7zEBm0ylWUluovmAGEqFHtvdvSBBD_x002F_fwJ_x002F_CXo3swbbtnunEiq3JSh600F_x002F_nGLWxpp0oma7nm_x002F_5BWBj8pPhUUh45OCX1vmzqor9z0zI5EQw7btQciJw4yaI6m_x002F_Ua2IylrAo8Fn8LlisqpTC6V5zcgJyJbo9C0N8QU4bhqQHr5_x002F_nI37Chv9qiM3gzPqLuetmwl6VWZJvtaW_x002B_oqI7mfv52Pp6COBDSbZx98eR9GFMWCjHQjU89I2Nm7q_x002F_lDDYKrCOSeVu883ygyVBucySD1dGS1EXHUIUwG0U7eTpZjFyTfK7hNxHTkV_x002F_ls2SfCPa5B4aSgetlKq6z_x002B_3SA9rK_x002B_Y1tHSr5TMFimN7LwTIPHjtoXaSa68Uefl2UN748_x002B_2Urr8Axz3XNpS6sYyFFiXlsFBspKN9a3XyOv2FxLeUwOUJ5anNblSoIzWxQpw_x002F_RTbI2Iq0T_x002F_ruycAJEO2KHEE9JBb0YgCQp3NtqP6Yq0gN_x002B_hjFD4Dyec1cvqCvM3Ahr6YpOCv5v504UJstuyDsixm0JRdSCpd_x002B_9YihIcU8MLkLbbF37df7m3StFLZUr_x002B_SOs_x002B_p9CGTuqSDmfcizbwgbktZJGZimuD_x002F__x002B_5H3Z1c0amySC5oCfnG2P1l8ypc8GB5mv5aJLSCAkQ1N3cGegvTZMaiGzatoG3_x002B_ZfiE1iyMNksJHv2gJPoMXhTSESyjADc0jsfqg_x002B_e286jJB8_x002F_RhR2ph8JNzHUFdaOpfQnxTGtEZBK_x002B_Q9BXpRWhgehm5BNyrhgpVi6bFHxc00idPmj0DOi9ynptm6hWnV1RegtYnMS8xF6nJGuzFvAg3wEFH9AM7sr_x002F_qrpkKEll_x002B_PJhI_x002F_cs3m1YL9dQRmt0vQ0uQlF4p2TXVCisHx2dTGIYTquvwdWH1v33WEvqjP83Ko9EGUcCDqkE7ViHuwI4F2jcS0FwkYyOdI1ZqrqkNOTaAnv6Zt_x002F_0qNqLYXnUKzx_x002F_tujl29EQyDaSwgIanzeH_x002F_bGkJayAfuqsKE5zo0DSm9mrVxHfqjePfYPOtBOY8e4EXsvrVJo5LPIkS6bS_x002B__x002B_nQIVJwwqrMHtIsQL4cnhKBSiG9g5bi9QsCqtad7Xi_x002F_oT1zEwuI8gQzxI6pJk_x002F_h43dAyr1xT1W_x002F__x002F_zoQ1uxZUE7bM3xRJ_x002F_ya_x002F_zhjkanrLS_x002B_j4mUgBC4voispXibcgEVPJa_x002F_OQOlPLw_x002B_1MMAp9ep7LXUMo8_x002F_Y0BTp2JrIdDd4gjWsiztgrg_x002B_Tor3KaACgu3TYyTrGinKI4yny_x002F_I9GoER6HrivBBbrtuduKb2Onm2R68DilAEkKqgX7mUzJm3P16NdQ8CVuqjUV8loDQJxUtXAWI1HF71vaKPODkdB84XSaZzBe_x002B_YFOT2b8OlEqqiWkkaGHekp77xdNokTdAFJIdCbD8844pUKs5MDzGQVz7OoAh_x002F_qkD4myrRlVtV0DpppsMfOCI_x002F_Oq6JLsBbUKNKENoklLVMsfkEJKKrrM3MqOazpDoIsPB7P2N_x002F_8LWLTOA_x002B_Z96zVmB9Yl0iYabgoRzt3KtkreXoZKtH7VvbIlzqTd3hoqx6MwoOUBYWfJ2iomefMMo3KCtcQ7ko4pYtYE2_x002B_OSopCx0IzR16QzEfl9RaQf7EVNFxI3Yzfs95Cqg8WJfbDgObPtu3z1erYi_x002F_7Ypb43t1cWS1kmCMruxmvYC_x002F_wovNrYGwyNz74KGkWvSXX0B_x002F_vP0gmhWpKclWvkqYRGHZBCDfNghuDHiRUJLlDWmRgh3pAWrPpBYISwa7YExJkxoZcbOUVXLnoTqvyMAXftSKKr0tkCIcJ_x002B_5RcynhnPlk0aSZWIHV9itwgfUuU7OpPsChwjJsP5WzRMXifm5l7nkAGFKU1o37Sdg6_x002B_5q5LjhA2OFghvPdu0Ro0zypmTVTp7o2GJFWgBhjXrAcdpPmE3Zy5FfSPbgW365AiPMWBY9Gsmy6Spd413tc_x002F_n2pRThpoRp2c0J31SbFT8G4Dv3LhG8nlT0G2Kvn61wzC6I2tmm0hDBj3PR0k_x002F_Kzpio8h8yzNDIumK9bgRlzZAKlupomLOSTQFLiE9NVrl9eNAU8biwjHySWvy3P_x002B_POFGYuLKKoTamKq5S9xF0qvz_x002B_0W30eyk968uy_x002F_qS9ZOTHk4fn3vIP_x002B_9weVhoHaqKdyjbVobkxtQbSRe2eMQJwI4nYm4XcjRXz94DsHqD_x002F_mEOXOP8K1_x002B_oSwjIlYgDKPL8OWygisydr3Z8XdHK8JQAM7L8Zj6FeqkQJr1BtjwiPzcPDvbDb296Elqv_x002F_cCREtzR_x002B_1sGhKmhlG0Ix_x002F_cgR6I91cR7KmUOeb9Q4dHZwHH57hhT3SopRLdcYEV6gtCLU99DdESLaGsbod8BE6zkF8jYjpln3Sm7aQ83ASsdSwOrC_x002B_J07vxvZdkrMMMjwhwkiJge3g_x002B_VVRM8IFJuz9ldk_x003D_</value>
+    </Resources>
+    <Variables isList="true" count="41">
+      <value>,Cashier_Name,Cashier_Name,,System.String,,False,False,False,False,,_x0035_6b99b560723404e8fda76682dd3dd12</value>
+      <value>,Chief_Accountant,Chief_Accountant,,System.String,Lương_x0020_Gia_x0020_C,False,False,False,False,,_x0036_6f6af5d7a8149c680e2643362b5f181</value>
+      <value>,Chief_Accountant_Position,Chief_Accountant_Position,,System.String,Kế_x0020_toán_x0020_trưởng,False,False,False,False,,_x0036_4d54f6400bc46ba847e24a3e0af7765</value>
+      <value>,CompanyAddress,CompanyAddress,,System.String,Trung_x0020_Hòa_x0020_Nhân_x0020_Chính,False,False,False,False,,c7f59278b66340d2bb778f9f6076a9a6</value>
+      <value>,CompanyName,CompanyName,,System.String,Công_x0020_ty_x0020_A,False,False,False,False,,_x0039_08055f56f8945799d899409b0cc8f9e</value>
+      <value>,counter,counter,,System.Int32,_x002D_39,False,False,False,False,,_x0036_97282c1905543baa093195104040c9d</value>
+      <value>,Creator_Name,Creator_Name,,System.String,Nguyễn_x0020_Văn_x0020_A,False,False,False,False,,_x0031_b6eaec033524e0bb5a19ae4be820373</value>
+      <value>,Creator_Position,Creator_Position,,System.String,Người_x0020_lập_x0020_phiếu,False,False,False,False,,d7d19f5931a6470eafd41ae6b45405fd</value>
+      <value>,DatePrinted,DatePrinted,,System.Boolean,false,False,False,False,False,,df36ee6afe0e4b34bd5dc9eb85cafd79</value>
+      <value>,DateTime_String,DateTime_String,,System.String,Ngày_x0020_15_x0020_tháng_x0020_10_x0020_năm_x0020_2020,False,False,False,False,,_x0037_6d87e8736214277895682f5ab3f8ae4</value>
+      <value>,DecimalSymbol,DecimalSymbol,,System.String,_x002C_,False,False,False,False,,_x0033_c46b1a1867d49f6908b1a5474767f87</value>
+      <value>,DEMOString,DEMOString,,System.String,EZsoft,False,False,False,False,,add879c800ee4cc68063af7c7a9c97ff</value>
+      <value>,Director_Name,Director_Name,,System.String,,False,False,False,False,,_x0033_0974dfb26c84e3b8aca02bcc652d9d9</value>
+      <value>,GroupingSymbol,GroupingSymbol,,System.String,_x002E_,False,False,False,False,,_x0030_d4d81eed526485bbe7c919b3ad7c06a</value>
+      <value>,Name_Signature,Name_Signature,,System.String,_x0028_Ký_x002C__x0020_họ_x0020_tên_x0029_,False,False,False,False,,_x0033_592b3fa5f3944919a2414df2c1bec2b</value>
+      <value>,Name_Signature_Stemp,Name_Signature_Stemp,,System.String,,False,False,False,False,,f320e1e2068c4631a532dcc819bf4415</value>
+      <value>,NegativePattern,NegativePattern,,System.Int32,_x0030_,False,False,False,False,,_x0030_6e4a88bd4664b26a3f2e0ff254e8927</value>
+      <value>,NumToWordsEN,NumToWordsEN,,System.String,,False,False,False,False,,_x0035_87191dab1d145748a6d9e3fdbde7105</value>
+      <value>,NumToWordsVN,NumToWordsVN,,System.String,Một_x0020_triệu_x0020_không_x0020_trăm_x0020_hai_x0020_mươi_x0020_ba_x0020_nghìn_x0020_đồng,False,False,False,False,,_x0036_ca2709648f741e7a4fd20767b9cff8a</value>
+      <value>,PGia_Decim,PGia_Decim,,System.Int32,_x0033_,False,False,False,False,,_x0038_fd7f82698f2458fac1ecdb5b7e92631</value>
+      <value>,PGia_Nt_Decim,PGia_Nt_Decim,,System.Int32,_x0032_,False,False,False,False,,_x0033_63f1a7e6dd548fc97bbd7913cebfe59</value>
+      <value>,Print_Sign_Checked,Print_Sign_Checked,,System.Boolean,true,False,False,False,False,,e3d9caf47ac645049486928cae8f0ad9</value>
+      <value>,PSo_Luong_Decim,PSo_Luong_Decim,,System.Int32,_x0033_,False,False,False,False,,_x0033_87dd20f38a94d108d180b0ef66109e7</value>
+      <value>,PSo_LuongDM_Decim,PSo_LuongDM_Decim,,System.Int32,_x0033_,False,False,False,False,,_x0038_5b504fa80504225942715884f1a2f3a</value>
+      <value>,PSo_LuongHS_Decim,PSo_LuongHS_Decim,,System.Int32,_x0033_,False,False,False,False,,_x0039_b8b6ebd8676484183b2a1db1f015323</value>
+      <value>,PTien_Decim,PTien_Decim,,System.Int32,_x0030_,False,False,False,False,,_x0031_989e5ce0992461bb8f32f640298dea3</value>
+      <value>,PTien_Nt_Decim,PTien_Nt_Decim,,System.Int32,_x0032_,False,False,False,False,,c4e7e6a31b13441a89d74e12b66d269e</value>
+      <value>,PTy_Gia_Decim,PTy_Gia_Decim,,System.Int32,_x0030_,False,False,False,False,,_x0039_156eb42874740048b5860f1e28ac539</value>
+      <value>,ReportTitle,ReportTitle,,System.String,Phiếu_x0020_Nhập_x0020_Mua,False,False,False,False,,_x0033_5ebba42f2da4bd885e5632e15552450</value>
+      <value>,So_Ct_List,So_Ct_List,,System.String,So_Ct_List,False,False,False,False,,_x0030_0e8ce5bb21b4bd09f805d8cd8ddee2e</value>
+      <value>,Stock_Keeper,Stock_Keeper,,System.String,Hà_x0020_Thu_x0020_B,False,False,False,False,,f4f8715ec04d4f4a964538006c27d7f2</value>
+      <value>,Stock_Keeper_Position,Stock_Keeper_Position,,System.String,Thủ_x0020_kho,False,False,False,False,,_x0033_16591ffe52a43de8fd44a89f9046b7c</value>
+      <value>,Stt,Stt,,System.Nullable`1[System.Int32],,False,False,False,False,,b88bd0baac034d78932acc3526ac7936</value>
+      <value>,SubCompanyAddress,SubCompanyAddress,,System.String,Tầng_x0020_5_x002C__x0020_số_x0020_3_x0020_ngõ_x0020_120_x0020_Trường_x0020_Chinh_x002C__x0020_Đống_x0020_Đa_x002C__x0020_Hà_x0020_Nội,False,False,False,False,,_x0033_df591329512441ea1213abcaca43bb2</value>
+      <value>,TheDecisionNumber,TheDecisionNumber,,System.String,Thông_x0020_tư_x0020_200,False,False,False,False,,cefae653bfbd44d0b0904a30df24578d</value>
+      <value>,TheFirstRowDecision,TheFirstRowDecision,,System.String,TheFirstRowDecision,False,False,False,False,,a5f0aeacc6284e1eac97011f3d67a38e</value>
+      <value>,TheSecondRowDecision,TheSecondRowDecision,,System.String,TheSecondRowDecision,False,False,False,False,,_x0036_6d6aa1dd70c40c99152e8b0f76fbf0a</value>
+      <value>,TheThirdRowDecision,TheThirdRowDecision,,System.String,,False,False,False,False,,_x0031_a4135f1bfa642efa608c6df077f81ad</value>
+      <value>,Tien_NtList,Tien_NtList,,System.String,,False,False,False,False,,_x0036_b647539e39544ff8702a1f672fa8f07</value>
+      <value>,Tk_No_Co,Tk_No_Co,,System.String,,False,False,False,False,,c72ef618f1e2442585bf263558688936</value>
+      <value>,TkList,TkList,,System.String,,False,False,False,False,,_x0035_a2b77731e014ceeaef6a4a3b4d5e3ff</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>4d23ab355ca248898251cd402495e826</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <BeginRenderEvent>this.Text19.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PSo_Luong_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text20.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PSo_Luong_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text21.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PGia_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text16.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text30.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text35.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text36.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+
+if (CTVT0.Name.TTien5 == 0)
+{
+double ii_Ratio = 2.00;
+double ii_Height = 1.2 / ii_Ratio;
+
+	this.Footer1.Height = this.Footer1.Height - ii_Height;
+
+	this.Footer1.Components.Remove(this.Text32);
+	this.Footer1.Components.Remove(this.Text38);
+	this.Footer1.Components.Remove(this.Text35);
+	this.Footer1.Components.Remove(this.Text34);
+	this.Footer1.Components.Remove(this.Text41);
+	this.Footer1.Components.Remove(this.Text36);
+
+	this.Text75.Top = this.Text75.Top - ii_Height;
+	this.Text62.Top = this.Text62.Top - ii_Height;
+	this.Text76.Top = this.Text76.Top - ii_Height;
+	this.Text79.Top = this.Text79.Top - ii_Height;
+	this.Text72.Top = this.Text72.Top - ii_Height;
+	this.Text68.Top = this.Text68.Top - ii_Height;
+	this.Text77.Top = this.Text77.Top - ii_Height;
+	this.Text70.Top = this.Text70.Top - ii_Height;
+	this.Text73.Top = this.Text73.Top - ii_Height;
+	this.Text69.Top = this.Text69.Top - ii_Height;
+	this.Text78.Top = this.Text78.Top - ii_Height;
+	this.Text71.Top = this.Text71.Top - ii_Height;
+	this.Text74.Top = this.Text74.Top - ii_Height;
+	this.Text63.Top = this.Text63.Top - ii_Height;
+	this.Text66.Top = this.Text66.Top - ii_Height;
+	this.Text64.Top = this.Text64.Top - ii_Height;
+	this.Text65.Top = this.Text65.Top - ii_Height;
+}</BeginRenderEvent>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="6">
+        <PageFooterBand1 Ref="7" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,27.1,19,0.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text67 Ref="8" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <GetValueEvent>if (!DatePrinted)
+{
+	e.Value = "";
+}
+else
+{
+	e.Value = "Thời điểm in: " + Time;
+}</GetValueEvent>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text67>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </PageFooterBand1>
+        <GroupHeaderBand1 Ref="9" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,5.6</ClientRectangle>
+          <Components isList="true" count="18">
+            <Text2 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,12,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{CompanyName}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text4 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,12,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{CompanyAddress}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text11 Ref="12" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0,6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{TheDecisionNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="13" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0.4,6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{TheFirstRowDecision}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="14" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0.8,6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{TheSecondRowDecision}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text42 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.8,12,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Guid>69288ef141224e7b9cf564594cb1adb7</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <Text>{SubCompanyAddress}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text1 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.8,19,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,16,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{ReportTitle}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text6 Ref="17" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,2.6,9.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <GetValueEvent>e.Value = "Ngày " + System.String.Format("{0:dd}", CTVT.Ngay_Ct) + " tháng " + System.String.Format("{0:MM}", CTVT.Ngay_Ct) + " năm " + System.String.Format("{0:yyyy}", CTVT.Ngay_Ct);</GetValueEvent>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{CTVT.Ngay_Ct}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="18" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text22 Ref="19" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,4,15.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{CTVT0.Name.Ong_Ba}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="20" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,4,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>-  Họ tên người giao hàng: </Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text27 Ref="21" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5,2.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>-  Nhập tại kho: </Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text14 Ref="22" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,2.6,1.2,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{TkList}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text14>
+            <Text15 Ref="23" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.2,2.6,2.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{Tien_NtList}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text15>
+            <Text33 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,5,1.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>Địa điểm:</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text39 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.2,5,10,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{CTVT0.Ma_Kho} - {CTVT0.Ten_Kho}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text58 Ref="26" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.2,2.6,0.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text58</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>{Tk_No_Co}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text58>
+            <Text29 Ref="27" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,3,9.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>Số: {CTVT0.Name.So_Ct}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text60 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,4.6,19,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GetValueEvent>
+string is_So_Ngay_Ct = "- Theo  HÐ  số  ";
+
+if (String.IsNullOrEmpty(CTVT0.Name.So_Ct0.ToString()))
+{
+	is_So_Ngay_Ct = is_So_Ngay_Ct + "............";
+}
+else
+{
+	is_So_Ngay_Ct = is_So_Ngay_Ct  +  CTVT0.Name.So_Ct0;
+}
+ if (String.IsNullOrEmpty(CTVT0.Name.Ngay_Ct0.ToString()))
+{
+		is_So_Ngay_Ct = is_So_Ngay_Ct + "............";
+	
+}
+else
+{
+is_So_Ngay_Ct = is_So_Ngay_Ct + " ngày  " + System.String.Format("{0:dd}", CTVT0.Name.Ngay_Ct0) + " tháng " + System.String.Format("{0:MM}", CTVT0.Name.Ngay_Ct0) + " năm " + System.String.Format("{0:yyyy}", CTVT0.Name.Ngay_Ct0);
+}
+
+if (String.IsNullOrEmpty(CTVT0.Name.Ten_Dt.ToString()))
+{
+	is_So_Ngay_Ct = is_So_Ngay_Ct  +  "........";
+}
+else
+{
+	is_So_Ngay_Ct = is_So_Ngay_Ct  +  "  của:  " + CTVT0.Name.Ten_Dt;
+}
+
+e.Value = is_So_Ngay_Ct;</GetValueEvent>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text60</Name>
+              <Page isRef="6" />
+              <Parent isRef="9" />
+              <Text>- Theo...........số...........ngày...........tháng...........năm...........của:..................................................................................................................................................................................</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text60>
+          </Components>
+          <Condition>{CTVT0.Name.Stt}</Condition>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <NewPageBefore>True</NewPageBefore>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </GroupHeaderBand1>
+        <GroupHeaderBand2 Ref="29" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.8,19,1.6</ClientRectangle>
+          <Components isList="true" count="17">
+            <Text40 Ref="30" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>0,0,1.1,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Stt</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text43 Ref="31" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>1.1,0,5.6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Tên,nhãn hiệu,quy cách phẩm chất vật tư,dụng cụ sản phẩm,hàng hóa</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text44 Ref="32" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>13.6,0,2.4,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Đơn giá</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="33" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>16,0,3,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Thành tiền</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text46 Ref="34" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>6.7,0,2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Mã số</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text47 Ref="35" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>8.7,0,1.3,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Đơn
+vị tính</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text49 Ref="36" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>10,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Số lượng</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <Text50 Ref="37" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>10,0.6,1.9,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Chứng từ</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text51 Ref="38" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>11.9,0.6,1.9,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>Thực nhập</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text52 Ref="39" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>0,1,1.1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>A</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text52>
+            <Text53 Ref="40" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>1.1,1,5.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>B</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text54 Ref="41" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>6.7,1,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>C</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text54>
+            <Text55 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>8.7,1,1.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>D</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text55>
+            <Text56 Ref="43" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>10,1,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text56</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>1</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text56>
+            <Text57 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>11.9,1,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>2</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text57>
+            <Text10 Ref="45" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>13.8,1,2.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>3</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text17 Ref="46" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>16,1,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="6" />
+              <Parent isRef="29" />
+              <Text>4</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>GroupHeaderBand2</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </GroupHeaderBand2>
+        <DataBand1 Ref="47" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,9.2,19,0.6</ClientRectangle>
+          <Components isList="true" count="8">
+            <Text7 Ref="48" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.7,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.Ma_Vt}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text3 Ref="49" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text16 Ref="50" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>16,0,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.Tien - CTVT0.Tien4 + CTVT0.Tien6 - CTVT0.Tien_413}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="51" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text18 Ref="52" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.7,0,1.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.Dvt}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="53" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,0,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.So_Luong9}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="54" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text21 Ref="55" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.8,0,2.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.So_Luong9 != 0 ? (CTVT0.Tien - CTVT0.Tien4 + CTVT0.Tien6 - CTVT0.Tien_413) / CTVT0.So_Luong9 : 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="56" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text5 Ref="57" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.1,0,5.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>2,2,2,2</Margins>
+              <Name>Text5</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <Text>{CTVT0.Ten_Vt}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text20 Ref="58" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.9,0,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="6" />
+              <Parent isRef="47" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>CTVT0</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <EmptyBand1 Ref="60" type="Stimulsoft.Report.Components.StiEmptyBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.6,19,0.6</ClientRectangle>
+          <Components isList="true" count="8">
+            <Text80 Ref="61" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.7,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text80</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text80>
+            <Text81 Ref="62" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text81</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text81>
+            <Text82 Ref="63" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>16,0,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="64" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text82>
+            <Text83 Ref="65" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.7,0,1.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text83</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text83>
+            <Text84 Ref="66" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10,0,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text84</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text84>
+            <Text85 Ref="68" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.8,0,2.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text85</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="69" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text85>
+            <Text86 Ref="70" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.1,0,5.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>2,2,2,2</Margins>
+              <Name>Text86</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </Text86>
+            <Text87 Ref="71" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.9,0,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text87</Name>
+              <Page isRef="6" />
+              <Parent isRef="60" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="72" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text87>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EmptyBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </EmptyBand1>
+        <Footer1 Ref="73" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,12,19,7</ClientRectangle>
+          <Components isList="true" count="26">
+            <Text32 Ref="74" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>0,0,16,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text34 Ref="75" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>0,0.6,16,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text9 Ref="76" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>0,1.2,16,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text30 Ref="77" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>16,0,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{CTVT0.Name.TTien - CTVT0.Name.TTien4 + CTVT0.Name.TTien6 - CTVT0.Name.TTien_413}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="78" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text35 Ref="79" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>16,0.6,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{CTVT0.Name.TTien5}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="80" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="81" type="Text" isKey="true">
+              <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
+              <Brush>LightCyan</Brush>
+              <ClientRectangle>16,1.2,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{CTVT0.Name.TTien - CTVT0.Name.TTien4 + CTVT0.Name.TTien6 - CTVT0.Name.TTien_413 + CTVT0.Name.TTien5}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="82" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="83" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2,0,4.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>Cộng tiền hàng</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="84" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2,0.6,4.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>Thuế nhập khẩu</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text41 Ref="85" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2,1.2,4.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>Tổng cộng</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text62 Ref="86" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.4,2.4,14.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold| Italic</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text62</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{NumToWordsVN}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text62>
+            <Text68 Ref="87" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,3.8,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Creator_Position}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text69 Ref="88" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,4.2,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Name_Signature}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text69>
+            <Text70 Ref="89" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,3.8,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text70</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Stock_Keeper_Position}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text70>
+            <Text71 Ref="90" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,4.2,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text71</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Name_Signature}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text71>
+            <Text72 Ref="91" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.6,3.2,5.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{DateTime_String}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+            <Text73 Ref="92" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,3.8,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Chief_Accountant_Position}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text73>
+            <Text74 Ref="93" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,4.2,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text74</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Name_Signature}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text74>
+            <Text75 Ref="94" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2.4,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text75</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>-  Tổng số tiền (viết bằng chữ):</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text75>
+            <Text76 Ref="95" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.8,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text76</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>-  Số chứng từ gốc kèm theo: </Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text76>
+            <Text77 Ref="96" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,3.8,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text77</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>Người giao hàng</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text77>
+            <Text78 Ref="97" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,4.2,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text78</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Name_Signature}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text78>
+            <Text79 Ref="98" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.4,2.8,14.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text79</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{So_Ct_List}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text79>
+            <Text63 Ref="99" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,6.6,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text63</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Print_Sign_Checked ? Creator_Name : ""}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text63>
+            <Text64 Ref="100" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,6.6,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Print_Sign_Checked ? Stock_Keeper : ""}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+            <Text65 Ref="101" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,6.6,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Print_Sign_Checked ? Chief_Accountant : ""}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text65>
+            <Text66 Ref="102" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,6.6,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="6" />
+              <Parent isRef="73" />
+              <Text>{Print_Sign_Checked ? CTVT0.Name.Ong_Ba : ""}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text66>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Footer1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <PrintAtBottom>True</PrintAtBottom>
+        </Footer1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>88011584cfd54f318e7cea5f738f3e45</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>11/10/2020 8:50:05 AM</ReportChanged>
+  <ReportCreated>11/7/2020 9:46:11 PM</ReportCreated>
+  <ReportFile>C:\Users\quocd\Google Drive\Cong viec\FILE MOI\1_PNMH_ThuCong.mrt</ReportFile>
+  <ReportGuid>3ce895a8b9bb4677a77ce850af9b0710</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.5.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
