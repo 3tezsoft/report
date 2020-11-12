@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="2">
+      <CTVT Ref="2" type="DataTableSource" isKey="true">
+        <Alias>CTVT</Alias>
+        <Columns isList="true" count="61">
+          <value>Desc_EN,System.String</value>
+          <value>Dia_Chi,Địa_x0020_chỉ_x0020_khách_x0020_hàng,System.String</value>
+          <value>Gia_Thue,System.String</value>
+          <value>Han_Tt,System.DateTime</value>
+          <value>Ong_Ba,Họ_x0020_tên_x0020_người_x0020_nhận_x0020_hàng:,System.String</value>
+          <value>Ma_Kho,Kho_x0020_xuất,System.String</value>
+          <value>Loai_Ck,System.String</value>
+          <value>Locked,System.Boolean</value>
+          <value>Dien_Giai,Lý_x0020_do_x0020_xuất:,System.String</value>
+          <value>Ma_Bp,System.String</value>
+          <value>Ma_Ct,System.String</value>
+          <value>Ma_Dt,System.String</value>
+          <value>Ma_Hd,System.String</value>
+          <value>Ma_Km,System.String</value>
+          <value>Ma_Loai1,System.String</value>
+          <value>Ma_Loai2,System.String</value>
+          <value>Ma_Loai3,System.String</value>
+          <value>Ma_Nx,System.String</value>
+          <value>Ma_Tte,System.String</value>
+          <value>Ngay_Ct,Ngày_x0020_Ct,System.DateTime</value>
+          <value>Ngay_Ct0,System.DateTime</value>
+          <value>Ngay_Ps,System.DateTime</value>
+          <value>Nh_Ct,System.String</value>
+          <value>Posted,System.Int32</value>
+          <value>PostedGL,System.Boolean</value>
+          <value>So_Ct,Số_x0020_Ct,System.String</value>
+          <value>So_Ct0,System.String</value>
+          <value>So_Seri,System.String</value>
+          <value>So_Seri0,System.String</value>
+          <value>Stt,System.String</value>
+          <value>Ten_Dt,Tên_x0020_khách_x0020_hàng,System.String</value>
+          <value>Ten_Kho,Tên_x0020_kho,System.String</value>
+          <value>Ten_Bp,System.String</value>
+          <value>Ten_Hd,System.String</value>
+          <value>Ten_Km,System.String</value>
+          <value>Ten_Nx,System.String</value>
+          <value>Thue_GTGT,System.Decimal</value>
+          <value>Tien_Cash,System.Decimal</value>
+          <value>TTien,Tổng_x0020_tiền,System.Decimal</value>
+          <value>TTien_Nt,System.Decimal</value>
+          <value>TTien_Nt0,System.Decimal</value>
+          <value>TTien_Nt2,System.Decimal</value>
+          <value>TTien_Nt3,System.Decimal</value>
+          <value>TTien_Nt4,System.Decimal</value>
+          <value>TTien_Nt5,System.Decimal</value>
+          <value>TTien_Nt6,System.Decimal</value>
+          <value>TTien_Nt7,System.Decimal</value>
+          <value>TTien_Nt8,System.Decimal</value>
+          <value>TTien_VAT0,System.Decimal</value>
+          <value>TTien_VAT1,System.Decimal</value>
+          <value>TTien0,System.Decimal</value>
+          <value>TTien2,System.Decimal</value>
+          <value>TTien3,System.Decimal</value>
+          <value>TTien4,System.Decimal</value>
+          <value>TTien5,System.Decimal</value>
+          <value>TTien6,System.Decimal</value>
+          <value>TTien7,System.Decimal</value>
+          <value>TTien8,System.Decimal</value>
+          <value>Ty_Gia,System.Decimal</value>
+          <value>Ty_Gia_Ht,System.Decimal</value>
+          <value>UserName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>bca19ac04fb745828df7deb65a7514ac</Key>
+        <Name>CTVT</Name>
+        <NameInSource>CTVT</NameInSource>
+      </CTVT>
+      <CTVT0 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>CTVT0</Alias>
+        <Columns isList="true" count="68">
+          <value>Chiet_Khau,System.Decimal</value>
+          <value>Do_Am_PT,System.Decimal</value>
+          <value>Do_Con_PT,System.Decimal</value>
+          <value>Gia9,Đơn_x0020_giá,System.Decimal</value>
+          <value>Dvt,Đơn_x0020_vị_x0020_tính,System.String</value>
+          <value>Gia,System.Decimal</value>
+          <value>Gia_Nt,System.Decimal</value>
+          <value>Gia_Nt2,System.Decimal</value>
+          <value>Gia_Nt9,System.Decimal</value>
+          <value>Gia_Tb_Tt,System.String</value>
+          <value>Gia2,System.Decimal</value>
+          <value>H_Luong,System.Decimal</value>
+          <value>Han_Dung,System.DateTime</value>
+          <value>He_So9,System.Decimal</value>
+          <value>Hoa_Hong,System.Decimal</value>
+          <value>Lo_Hang,System.String</value>
+          <value>Ma_Kho,Mã_x0020_kho,System.String</value>
+          <value>Ma_Vt,Mã_x0020_vật_x0020_tư,System.String</value>
+          <value>Ma_Bp,System.String</value>
+          <value>Ma_Hd,System.String</value>
+          <value>Ma_Km,System.String</value>
+          <value>Ma_Sp,System.String</value>
+          <value>So_Luong,Số_x0020_lượng,System.Decimal</value>
+          <value>So_Luong9,System.Decimal</value>
+          <value>Stt_Nv,System.Int32</value>
+          <value>Stt0,System.String</value>
+          <value>Stt0_D,System.String</value>
+          <value>Ten_Kho,Tên_x0020_kho,System.String</value>
+          <value>Ten_Vt,Tên_x0020_vật_x0020_tư_x002C__x0020_hàng_x0020_hoá,System.String</value>
+          <value>Ten_Bp,System.String</value>
+          <value>Ten_Hd,System.String</value>
+          <value>Ten_Km,System.String</value>
+          <value>Ten_Sp,System.String</value>
+          <value>Tien9,Thành_x0020_tiền,System.Decimal</value>
+          <value>Thue_GTGT,System.Decimal</value>
+          <value>Thue_TTDB,System.Decimal</value>
+          <value>Thue_XK,System.Decimal</value>
+          <value>Tien,System.Decimal</value>
+          <value>Tien_Nt,System.Decimal</value>
+          <value>Tien_Nt2,System.Decimal</value>
+          <value>Tien_Nt3,System.Decimal</value>
+          <value>Tien_Nt4,System.Decimal</value>
+          <value>Tien_Nt5,System.Decimal</value>
+          <value>Tien_Nt6,System.Decimal</value>
+          <value>Tien_Nt7,System.Decimal</value>
+          <value>Tien_Nt8,System.Decimal</value>
+          <value>Tien_Nt9,System.Decimal</value>
+          <value>Tien2,System.Decimal</value>
+          <value>Tien3,System.Decimal</value>
+          <value>Tien4,System.Decimal</value>
+          <value>Tien5,System.Decimal</value>
+          <value>Tien6,System.Decimal</value>
+          <value>Tien7,System.Decimal</value>
+          <value>Tien8,System.Decimal</value>
+          <value>Tk_Co,System.String</value>
+          <value>Tk_Co2,System.String</value>
+          <value>Tk_Co3,System.String</value>
+          <value>Tk_Co4,System.String</value>
+          <value>Tk_Co5,System.String</value>
+          <value>Tk_Co6,System.String</value>
+          <value>Tk_Co8,System.String</value>
+          <value>Tk_No,System.String</value>
+          <value>Tk_No2,System.String</value>
+          <value>Tk_No3,System.String</value>
+          <value>Tk_No4,System.String</value>
+          <value>Tk_No5,System.String</value>
+          <value>Tk_No6,System.String</value>
+          <value>Tk_No8,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>94df107e35de4c9c81291c335feb222b</Key>
+        <Name>CTVT0</Name>
+        <NameInSource>CTVT0</NameInSource>
+      </CTVT0>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="91">
+      <value>,Cashier_Name,Cashier_Name,,System.String,,False,False,False,False</value>
+      <value>,Cashier_Position,Cashier_Position,,System.String,,False,False,False,False</value>
+      <value>,Chief_Accountant,Chief_Accountant,,System.String,,False,False,False,False</value>
+      <value>,Chief_Accountant_Position,Chief_Accountant_Position,,System.String,,False,False,False,False</value>
+      <value>,CompanyAddress,CompanyAddress,,System.String,,False,False,False,False</value>
+      <value>,CompanyAddress_E,CompanyAddress_E,,System.String,,False,False,False,False</value>
+      <value>,CompanyBankAccount,CompanyBankAccount,,System.String,,False,False,False,False</value>
+      <value>,CompanyBankCity,CompanyBankCity,,System.String,,False,False,False,False</value>
+      <value>,CompanyBankName,CompanyBankName,,System.String,,False,False,False,False</value>
+      <value>,CompanyBranchName,CompanyBranchName,,System.String,,False,False,False,False</value>
+      <value>,CompanyBranchName_E,CompanyBranchName_E,,System.String,,False,False,False,False</value>
+      <value>,CompanyEmail,CompanyEmail,,System.String,,False,False,False,False</value>
+      <value>,CompanyFaxes,CompanyFaxes,,System.String,,False,False,False,False</value>
+      <value>,CompanyLogoPicture,CompanyLogoPicture,,System.Drawing.Image,,False,False,False,False</value>
+      <value>,CompanyName,CompanyName,,System.String,,False,False,False,False</value>
+      <value>,CompanyName_E,CompanyName_E,,System.String,,False,False,False,False</value>
+      <value>,CompanyPhones,CompanyPhones,,System.String,,False,False,False,False</value>
+      <value>,CompanyTaxcode,CompanyTaxcode,,System.String,,False,False,False,False</value>
+      <value>,CompanyWebsite,CompanyWebsite,,System.String,,False,False,False,False</value>
+      <value>,counter,counter,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,Creator_Name,Creator_Name,,System.String,,False,False,False,False</value>
+      <value>,Creator_Position,Creator_Position,,System.String,,False,False,False,False</value>
+      <value>,Customer_Address,Customer_Address,,System.String,,False,False,False,False</value>
+      <value>,Customer_Contact,Customer_Contact,,System.String,,False,False,False,False</value>
+      <value>,DatePrinted,DatePrinted,,System.Boolean,false,False,False,False,False</value>
+      <value>,DateTime_String,DateTime_String,,System.String,,False,False,False,False,,_x0035_2f1fe29dbcb4f5f8c7d3d03f9ce00fa</value>
+      <value>,DecimalSymbol,DecimalSymbol,,System.String,_x002C_,False,False,False,False</value>
+      <value>,Port_Of_Loading,Địa_x0020_điểm_x0020_giao_x0020_hàng,,System.String,,False,False,False,False</value>
+      <value>,Final_Destination,Địa_x0020_điểm_x0020_nhận_x0020_hàng,,System.String,,False,False,False,False</value>
+      <value>,Director_Name,Director_Name,,System.String,,False,False,False,False</value>
+      <value>,Director_Position,Director_Position,,System.String,,False,False,False,False</value>
+      <value>,DEMOString,Đoạn_x0020_ký_x0020_tự_x0020_in_x0020_ra_x0020_khi_x0020_chạy_x0020_DEMO.,,System.String,EZsoft,False,False,False,False</value>
+      <value>,Transportion_Company,Đơn_x0020_vị_x0020_vận_x0020_chuyển,,System.String,,False,False,False,False</value>
+      <value>,Default_Currency,Đồng_x0020_tiền_x0020_hạch_x0020_toán,,System.String,,False,False,False,False</value>
+      <value>,Du_No0,Du_No0,,System.Nullable`1[System.Decimal],,False,False,False,False</value>
+      <value>,Du_No1,Du_No1,,System.Nullable`1[System.Decimal],,False,False,False,False</value>
+      <value>,GroupingSymbol,GroupingSymbol,,System.String,_x002E_,False,False,False,False</value>
+      <value>,Payment_Method,Hình_x0020_thức_x0020_thanh_x0020_toán,,System.String,TM_x002C_CK,False,False,False,False</value>
+      <value>,Print_Discount_Checked2,Kiểm_x0020_tra_x0020_đã_x0020_in_x0020_chiết_x0020_khấu_x0020_chưa_x003F_,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,Print_Discount_Checked1,Kiểm_x0020_tra_x0020_đã_x0020_in_x0020_chữ_x0020_chiết_x0020_khấu_x0020_chưa_x003F_,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,Print_Discount_Checked0,Kiểm_x0020_tra_x0020_đã_x0020_in_x0020_dòng_x0020_chiết_x0020_khấu_x0020_hay_x0020_chưa_x003F_,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,Customer_Taxcode,Mã_x0020_số_x0020_thuế_x0020_khách_x0020_hàng,,System.String,_x0030_102996767,False,False,False,False</value>
+      <value>,Name_Signature,Name_Signature,,System.String,,False,False,False,False</value>
+      <value>,Name_Signature_Stemp,Name_Signature_Stemp,,System.String,,False,False,False,False</value>
+      <value>,NegativePattern,NegativePattern,,System.Int32,_x0031_,False,False,False,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_DateTimeType_x003E_DateAndTime_x003C__x002F_DateTimeType_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_</value>
+      <value>,Ngay,Ngày,,System.String,,False,False,False,False</value>
+      <value>,Contract_Date,Ngày_x0020_hợp_x0020_đồng,,System.Nullable`1[System.DateTime],,False,False,False,False</value>
+      <value>,PGia_Decim,PGia_Decim,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,PGia_Nt_Decim,PGia_Nt_Decim,,System.Int32,_x0032_,False,False,False,False</value>
+      <value>,Print_Sign_Checked,Print_Sign_Checked,,System.Boolean,,False,False,False,False</value>
+      <value>,PSo_Luong_Decim,PSo_Luong_Decim,,System.Int32,_x0033_,False,False,False,False</value>
+      <value>,PSo_LuongDM_Decim,PSo_LuongDM_Decim,,System.Int32,_x0033_,False,False,False,False</value>
+      <value>,PSo_LuongHS_Decim,PSo_LuongHS_Decim,,System.Int32,_x0033_,False,False,False,False</value>
+      <value>,PTien_Decim,PTien_Decim,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,PTien_Nt_Decim,PTien_Nt_Decim,,System.Int32,_x0032_,False,False,False,False</value>
+      <value>,PTram_Decim,PTram_Decim,,System.Int32,,False,False,False,False</value>
+      <value>,PTy_Gia_Decim,PTy_Gia_Decim,,System.Int32,_x0030_,False,False,False,False</value>
+      <value>,ReportTitle,ReportTitle,,System.String,,False,False,False,False</value>
+      <value>,ReportTitle_E,ReportTitle_E,,System.String,,False,False,False,False</value>
+      <value>,Container_Number,Số_x0020_container,,System.String,,False,False,False,False</value>
+      <value>,Telephone_Number,Số_x0020_điện_x0020_thoại,,System.String,,False,False,False,False</value>
+      <value>,Contract_Number,Số_x0020_hợp_x0020_đồng,,System.String,,False,False,False,False</value>
+      <value>,Stt,Số_x0020_thứ_x0020_tự_x0020_dòng,,System.Nullable`1[System.Int32],,False,False,False,False</value>
+      <value>,Bill_Of_Lading_No,Số_x0020_vận_x0020_đơn,,System.String,,False,False,False,False</value>
+      <value>,So_Ct_List,So_Ct_List,,System.String,,False,False,False,False</value>
+      <value>,Stock_Keeper,Stock_Keeper,,System.String,,False,False,False,False</value>
+      <value>,Stock_Keeper_Position,Stock_Keeper_Position,,System.String,,False,False,False,False</value>
+      <value>,SubCompanyAddress,SubCompanyAddress,,System.String,,False,False,False,False</value>
+      <value>,Bank_Account,Tài_x0020_khoản_x0020_ngân_x0020_hàng,,System.String,_x0030_10018731001,False,False,False,False</value>
+      <value>,Customer_Name,Tên_x0020_khách_x0020_hàng,,System.String,,False,False,False,False</value>
+      <value>,Bank_Name,Tên_x0020_ngân_x0020_hàng,,System.String,,False,False,False,False</value>
+      <value>,Ten_Dvi_A,Ten_Dvi_A,,System.String,,False,False,False,False</value>
+      <value>,Ten_Dvi_B,Ten_Dvi_B,,System.String,,False,False,False,False</value>
+      <value>,Ten_NH_A,Ten_NH_A,,System.String,,False,False,False,False</value>
+      <value>,Ten_NH_B,Ten_NH_B,,System.String,,False,False,False,False</value>
+      <value>,Ten_TP_A,Ten_TP_A,,System.String,,False,False,False,False</value>
+      <value>,Ten_TP_B,Ten_TP_B,,System.String,,False,False,False,False</value>
+      <value>,NumToWordsVN,Thành_x0020_tiền,,System.String,,False,False,False,False</value>
+      <value>,Thanh_Tien,Thành_x0020_tiền,,System.String,,False,False,False,False</value>
+      <value>,NumToWordsEN,Thành_x0020_tiền_x0020_english,,System.String,,False,False,False,False</value>
+      <value>,Thanh_Tien_E,Thành_x0020_tiền_x0020_english,,System.String,,False,False,False,False</value>
+      <value>,TheDecisionNumber,TheDecisionNumber,,System.String,,False,False,False,False</value>
+      <value>,TheFirstRowDecision,TheFirstRowDecision,,System.String,,False,False,False,False</value>
+      <value>,TheSecondRowDecision,TheSecondRowDecision,,System.String,,False,False,False,False</value>
+      <value>,TheThirdRowDecision,TheThirdRowDecision,,System.String,,False,False,False,False</value>
+      <value>,Tien_Lmt,Tien_Lmt,,System.Nullable`1[System.Decimal],,False,False,False,False</value>
+      <value>,Tien_NtList,Tien_NtList,,System.String,,False,False,False,False</value>
+      <value>,Tk_NH_A,Tk_NH_A,,System.String,,False,False,False,False</value>
+      <value>,Tk_NH_B,Tk_NH_B,,System.String,,False,False,False,False</value>
+      <value>,Tk_No_Co,Tk_No_Co,,System.String,,False,False,False,False</value>
+      <value>,TkList,TkList,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>316544b7c75b4d44a4a59791483ef221</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <BeforePrintEvent>this.Page1_Watermark.Text = DEMOString;
+this.Text19.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PSo_Luong_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text21.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PGia_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text16.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text30.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text9.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTien_Decim, GroupingSymbol, 3, true, false, " ");
+this.Text36.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberFormatService(NegativePattern, DecimalSymbol, PTy_Gia_Decim, GroupingSymbol, 3, true, false, " ");</BeforePrintEvent>
+      <BeginRenderEvent>Print_Discount_Checked0 = 0;
+Print_Discount_Checked1 = 0;
+Print_Discount_Checked2 = 0;
+</BeginRenderEvent>
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageHeader1 Ref="5" type="GroupHeaderBand" isKey="true">
+          <Border>None;RosyBrown;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,9.33</ClientRectangle>
+          <Components isList="true" count="29">
+            <Text6 Ref="6" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,2.6,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{CTVT.Ngay_Ct.ToShortDateString().Substring(0, 2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="7" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text6>
+            <Text23 Ref="8" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.99,3.95,15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Customer_Contact}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text61 Ref="9" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.52,4.45,17.47,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text61</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Customer_Name}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text61>
+            <Text62 Ref="10" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.51,4.95,16.48,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text62</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Customer_Address}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text62>
+            <Text64 Ref="11" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4,5.95,4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Contract_Number}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+            <Text2 Ref="12" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.2,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 1? Customer_Taxcode.Substring(0, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text4 Ref="13" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.8,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 2? Customer_Taxcode.Substring(1, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text7 Ref="14" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.4,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 3? Customer_Taxcode.Substring(2, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text10 Ref="15" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 4? Customer_Taxcode.Substring(3, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="16" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.6,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 5? Customer_Taxcode.Substring(4, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="17" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.2,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 6? Customer_Taxcode.Substring(5, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="18" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.8,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 7? Customer_Taxcode.Substring(6, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="19" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 8? Customer_Taxcode.Substring(7, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="20" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 9? Customer_Taxcode.Substring(8, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text17 Ref="21" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.6,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 10? Customer_Taxcode.Substring(9, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text20 Ref="22" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 11? Customer_Taxcode.Substring(10, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text22 Ref="23" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.8,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 12? Customer_Taxcode.Substring(11, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text24 Ref="24" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.4,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 13? Customer_Taxcode.Substring(12, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text1 Ref="25" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2,6.45,5.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Payment_Method}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text25 Ref="26" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.8,2.6,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{CTVT.Ngay_Ct.ToShortDateString().Substring(3, 2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="27" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text25>
+            <Text26 Ref="28" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12,2.6,1.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{CTVT.Ngay_Ct.ToShortDateString().Substring(6, 4)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text26>
+            <Text28 Ref="30" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17,6.45,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{!String.IsNullOrEmpty(Customer_Taxcode) &amp;&amp; Customer_Taxcode.Length &gt;= 14? Customer_Taxcode.Substring(13, 1) : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text31 Ref="31" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.99,5.95,5,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Contract_Date}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="32" type="DateFormat" isKey="true">
+                <StringFormat>dd/MM/yyyy</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text8 Ref="33" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.99,6.95,15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Port_Of_Loading}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text29 Ref="34" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.99,7.45,15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Final_Destination}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text32 Ref="35" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.99,7.95,15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Bill_Of_Lading_No}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="36" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4,8.45,4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Container_Number}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="37" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.99,8.45,7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Transportion_Company}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text35 Ref="38" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.99,5.45,15,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{Telephone_Number}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+          </Components>
+          <Condition>{CTVT.Ong_Ba}</Condition>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Locked>True</Locked>
+          <Name>PageHeader1</Name>
+          <NewPageBefore>True</NewPageBefore>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </PageHeader1>
+        <Data1 Ref="39" type="DataBand" isKey="true">
+          <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,10.53,19,0.6</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text3 Ref="40" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,0.7,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text5 Ref="41" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.1,0,6.76,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{CTVT0.Ten_Vt}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text16 Ref="42" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.49,0,3.5,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{CTVT0.Tien2 - (CTVT.Loai_Ck == "0" ? 0 : CTVT0.Tien4)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="43" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text18 Ref="44" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>8.26,0,1.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{CTVT0.Dvt}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="45" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.96,0,2.17,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{CTVT0.So_Luong9}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="46" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text21 Ref="47" type="Text" isKey="true">
+              <Border>None;DarkGray;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.53,0,2.56,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="4" />
+              <Parent isRef="39" />
+              <Text>{CTVT.Loai_Ck == "0" ? CTVT0.Gia2 : CTVT0.So_Luong9 != 0 ? (CTVT0.Tien2 - CTVT0.Tien4) / CTVT0.So_Luong9 : 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="48" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>CTVT0</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Locked>True</Locked>
+          <Name>Data1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <RenderingEvent>counter = Line;</RenderingEvent>
+          <Sort isList="true" count="0" />
+        </Data1>
+        <EmptyBand1 Ref="49" type="Stimulsoft.Report.Components.StiEmptyBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.93,19,0.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text9 Ref="50" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>15.46,0,3.54,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GetValueEvent>if (Print_Discount_Checked2 == 0 &amp;&amp; CTVT.TTien4 != 0)
+{
+	Print_Discount_Checked2 = 1;
+}
+else
+{
+	e.Value = "";
+}</GetValueEvent>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="4" />
+              <Parent isRef="49" />
+              <Text>{CTVT.Loai_Ck == "0" ? CTVT.TTien4 : 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="51" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text27 Ref="52" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>1.1,0,5.94,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GetValueEvent>if (Print_Discount_Checked1 == 0 &amp;&amp; CTVT.TTien4 != 0)
+{
+	Print_Discount_Checked1 = 1;
+}
+else
+{
+	e.Value = "";
+}</GetValueEvent>
+              <HideZeros>True</HideZeros>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="4" />
+              <Parent isRef="49" />
+              <Text>{CTVT.Loai_Ck == "0" ? "Chiết khấu bán hàng" : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="53" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <HorizontalLine1 Ref="54" type="HorizontalLinePrimitive" isKey="true">
+              <BeforePrintEvent>if (Print_Discount_Checked0 == 0 &amp;&amp; CTVT.Loai_Ck == "0" &amp;&amp; CTVT.TTien4 != 0)
+{
+	Print_Discount_Checked0 = 1;
+	this.HorizontalLine1.Color = System.Drawing.Color.Black;
+}
+else
+{
+	this.HorizontalLine1.Color = System.Drawing.Color.Transparent;
+}</BeforePrintEvent>
+              <ClientRectangle>15,0,4,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="55" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Locked>True</Locked>
+              <Name>HorizontalLine1</Name>
+              <Page isRef="4" />
+              <Parent isRef="49" />
+              <StartCap Ref="56" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLine1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Locked>True</Locked>
+          <Name>EmptyBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <RenderingEvent>counter++;</RenderingEvent>
+        </EmptyBand1>
+        <PageFooterBand1 Ref="57" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,13.33,19,5.4</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text81 Ref="58" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.5,1.4,14.5,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9,Italic</Font>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text81</Name>
+              <Page isRef="4" />
+              <Parent isRef="57" />
+              <Text>{NumToWordsVN}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text81>
+            <Text30 Ref="59" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>9.26,0.6,9.74,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="4" />
+              <Parent isRef="57" />
+              <Text>{CTVT.TTien2 - CTVT.TTien4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="60" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text36 Ref="61" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2.5,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HideZeros>True</HideZeros>
+              <HorAlignment>Right</HorAlignment>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="4" />
+              <Parent isRef="57" />
+              <Text>{CTVT.Ma_Tte != Default_Currency ? CTVT.Ty_Gia : 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="62" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="63" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>4.5,0,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <GetValueEvent>if (CTVT.Ma_Tte != Default_Currency)
+{
+	e.Value = Default_Currency + "/" + CTVT.Ma_Tte;
+}
+else
+{
+	e.Value = "";
+}</GetValueEvent>
+              <HideZeros>True</HideZeros>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="4" />
+              <Parent isRef="57" />
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="64" type="Text" isKey="true">
+              <Border>None;Black;1;Dot;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>1.5,0,1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HideZeros>True</HideZeros>
+              <Locked>True</Locked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="4" />
+              <Parent isRef="57" />
+              <Text>{CTVT.Ma_Tte != Default_Currency ? "Tỷ giá:" : ""}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <PrintAtBottom>True</PrintAtBottom>
+        </PageFooterBand1>
+        <EndPointPrimitive24 Ref="65" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>21.89,15.75,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive24</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ReferenceToGuid>2977c53d02e7413c84cb95a10ab50929</ReferenceToGuid>
+        </EndPointPrimitive24>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>c68fb57cf56c48e2b6224ed43d58632f</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>11/11/2020 2:12:39 PM</ReportChanged>
+  <ReportCreated>3/9/2009 9:58:10 AM</ReportCreated>
+  <ReportFile>C:\Users\quocd\Google Drive\Cong viec\report\BAO CAO\BAO CAO MOI\B0 - EDIT\HDXK.mrt</ReportFile>
+  <ReportGuid>164dde6ba39a45faa53cff16e1370d3e</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.5.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
