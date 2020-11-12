@@ -9,7 +9,7 @@
         <Columns isList="true" count="36">
           <value>BookNum,System.String</value>
           <value>Ct_Di_Kem,Chứng_x0020_từ_x0020_đi_x0020_kèm,System.String</value>
-          <value>Desc_EN,System.String</value>
+          <value>Dien_Giai_E,System.String</value>
           <value>Dia_Chi,Địa_x0020_chỉ:,System.String</value>
           <value>Ong_Ba,Họ_x0020_tên_x0020_người_x0020_nộp_x0020_tiền:,System.String</value>
           <value>IL_TTien,System.Decimal</value>
@@ -30,7 +30,7 @@
           <value>Notes_Ck,System.String</value>
           <value>Posted,System.Int32</value>
           <value>So_Ct,Số_x0020_Ct,System.String</value>
-          <value>Stt,System.String</value>
+          <value>Id,System.String</value>
           <value>Ten_Bp,System.String</value>
           <value>Ten_Dt,System.String</value>
           <value>Ten_HD,System.String</value>

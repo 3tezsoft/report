@@ -7,7 +7,7 @@
       <CTVT Ref="2" type="DataTableSource" isKey="true">
         <Alias>CTVT</Alias>
         <Columns isList="true" count="61">
-          <value>Desc_EN,System.String</value>
+          <value>Dien_Giai_E,System.String</value>
           <value>Dia_Chi,System.String</value>
           <value>Gia_Thue,System.String</value>
           <value>Han_Tt,System.DateTime</value>
@@ -37,7 +37,7 @@
           <value>So_Ct0,System.String</value>
           <value>So_Seri,System.String</value>
           <value>So_Seri0,System.String</value>
-          <value>Stt,System.String</value>
+          <value>Id,System.String</value>
           <value>Ten_Kho,Tên_x0020_kho,System.String</value>
           <value>Ten_Bp,System.String</value>
           <value>Ten_Dt,System.String</value>
@@ -103,7 +103,8 @@
           <value>So_Luong,Số_x0020_lượng,System.Decimal</value>
           <value>So_Luong9,System.Decimal</value>
           <value>Stt_Nv,System.Int32</value>
-          <value>Stt0,System.String</value>
+          <value>ParentId,System.String</value>
+		     <value>Id,System.String</value>
           <value>Stt0_D,System.String</value>
           <value>Ten_Kho,Tên_x0020_kho,System.String</value>
           <value>Ten_Vt,Tên_x0020_vật_x0020_tư_x002C__x0020_hàng_x0020_hoá,System.String</value>
@@ -158,7 +159,7 @@
     <Report isRef="0" />
     <Resources isList="true" count="0" />
     <Variables isList="true" count="91">
-          <value>,Cashier_Name,Cashier_Name,,System.String,,False,False,False,False</value>
+      <value>,Cashier_Name,Cashier_Name,,System.String,,False,False,False,False</value>
       <value>,Cashier_Position,Cashier_Position,,System.String,,False,False,False,False</value>
       <value>,Chief_Accountant,Chief_Accountant,,System.String,,False,False,False,False</value>
       <value>,Chief_Accountant_Position,Chief_Accountant_Position,,System.String,,False,False,False,False</value>
@@ -249,7 +250,6 @@
       <value>,Bank_Account,Tài_x0020_khoản_x0020_ngân_x0020_hàng,,System.String,_x0030_10018731001,False,False,False,False</value>
       <value>,Customer_Name,Tên_x0020_khách_x0020_hàng,,System.String,,False,False,False,False</value>
       <value>,Bank_Name,Tên_x0020_ngân_x0020_hàng,,System.String,,False,False,False,False</value>
-
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
@@ -615,7 +615,7 @@ this.Text67.TextFormat = new Stimulsoft.Report.Components.TextFormats.StiNumberF
           <Locked>True</Locked>
           <Name>PageHeader1</Name>
           <Condition>{CTVT.Ong_Ba}</Condition>
- <NewPageBefore>True</NewPageBefore>		  
+          <NewPageBefore>True</NewPageBefore>
           <Page isRef="4" />
           <Parent isRef="4" />
         </PageHeader1>
@@ -1108,7 +1108,7 @@ vị tính</Text>
           <Expressions isList="true" count="0" />
           <Locked>True</Locked>
           <Name>Header1</Name>
- <PrintOnAllPages>True</PrintOnAllPages>		  
+          <PrintOnAllPages>True</PrintOnAllPages>
           <Page isRef="4" />
           <Parent isRef="4" />
         </Header1>
@@ -1992,7 +1992,7 @@ vị tính</Text>
           <Name>Footer2</Name>
           <Page isRef="4" />
           <Parent isRef="4" />
-<PrintAtBottom>True</PrintAtBottom>
+          <PrintAtBottom>True</PrintAtBottom>
         </Footer2>
         <StartPointPrimitive9 Ref="128" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
           <ClientRectangle>-0.06,5.96,0,0</ClientRectangle>

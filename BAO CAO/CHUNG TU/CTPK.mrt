@@ -9,7 +9,7 @@
         <Columns isList="true" count="36">
           <value>BookNum,System.String</value>
           <value>Ct_Di_Kem,System.String</value>
-          <value>Desc_EN,System.String</value>
+          <value>Dien_Giai_E,System.String</value>
           <value>Dia_Chi,Địa_x0020_chỉ,System.String</value>
           <value>Dien_Giai,Diễn_x0020_giải,System.String</value>
           <value>IL_TTien,System.Decimal</value>
@@ -30,7 +30,7 @@
           <value>Ong_Ba,Ông_x002C__x0020_bà,System.String</value>
           <value>Posted,System.Int32</value>
           <value>So_Ct,Số_x0020_Ct,System.String</value>
-          <value>Stt,System.String</value>
+          <value>Id,System.String</value>
           <value>Ten_Bp,System.String</value>
           <value>Ten_Dt,System.String</value>
           <value>Ten_HD,System.String</value>
@@ -51,8 +51,8 @@
       </CTKT>
       <CTKT0 Ref="3" type="DataTableSource" isKey="true">
         <Alias>CTKT0</Alias>
-        <Columns isList="true" count="31">
-          <value>Desc_EN,System.String</value>
+        <Columns isList="true" count="32">
+          <value>Dien_Giai_E,System.String</value>
           <value>Dien_Giai,System.String</value>
           <value>Han_Tt,System.DateTime</value>
           <value>Ma_Bp,System.String</value>
@@ -63,7 +63,8 @@
           <value>Ma_Tte,System.String</value>
           <value>No_Co,System.String</value>
           <value>Stt_Nv,System.Int32</value>
-          <value>Stt0,System.String</value>
+          <value>Id,System.String</value>
+		  <value>ParentId,System.String</value>
           <value>Tk,Tài_x0020_khoản,System.String</value>
           <value>Ten_Tk,Tên_x0020_tài_x0020_khoản,System.String</value>
           <value>Ten_Bp,System.String</value>

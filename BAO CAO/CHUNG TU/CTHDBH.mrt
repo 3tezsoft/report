@@ -6,8 +6,8 @@
     <DataSources isList="true" count="2">
       <CTVT Ref="2" type="DataTableSource" isKey="true">
         <Alias>CTVT</Alias>
-        <Columns isList="true" count="61">
-          <value>Desc_EN,System.String</value>
+        <Columns isList="true" count="62">
+          <value>Dien_Giai_E,System.String</value>
           <value>Dia_Chi,System.String</value>
           <value>Gia_Thue,System.String</value>
           <value>Han_Tt,System.DateTime</value>
@@ -36,7 +36,8 @@
           <value>So_Ct0,System.String</value>
           <value>So_Seri,System.String</value>
           <value>So_Seri0,System.String</value>
-          <value>Stt,System.String</value>
+          <value>Id,System.String</value>
+		  <value>ParentId,System.String</value>
           <value>Ten_Kho,Tên_x0020_kho,System.String</value>
           <value>Ten_Bp,System.String</value>
           <value>Ten_Dt,System.String</value>
@@ -76,7 +77,7 @@
       </CTVT>
       <CTVT0 Ref="3" type="DataTableSource" isKey="true">
         <Alias>CTVT0</Alias>
-        <Columns isList="true" count="69">
+        <Columns isList="true" count="70">
           <value>Chiet_Khau,System.Decimal</value>
           <value>Do_Am_PT,System.Decimal</value>
           <value>Do_Con_PT,System.Decimal</value>
@@ -102,7 +103,8 @@
           <value>So_Luong,Số_x0020_lượng,System.Decimal</value>
           <value>So_Luong9,System.Decimal</value>
           <value>Stt_Nv,System.Int32</value>
-          <value>Stt0,System.String</value>
+          <value>ParentId,System.String</value>
+		  <value>Id,System.String</value>
           <value>Stt0_D,System.String</value>
           <value>Ten_Kho,Tên_x0020_kho,System.String</value>
           <value>Ten_Vt,Tên_x0020_vật_x0020_tư_x002C__x0020_hàng_x0020_hoá,System.String</value>
